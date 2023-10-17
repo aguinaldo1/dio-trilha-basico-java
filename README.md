@@ -19,6 +19,11 @@ Nesse projeto exercitei o conteúdo apresentado no módulo de Sintaxe, codifican
 | Saldo: |237.48
 &ensp;
 &ensp;
+
+## Saída 
+![saida](https://github.com/aguinaldo1/dio-trilha-basico-java/assets/49000442/16593f64-af4d-4d0a-b674-7bd1c7a87c9b)
+&ensp;
+&ensp;
 ## Objetivo do Projeto
 
 3. Depois de todas as informações terem sido inseridas, através do imput em linha de comando, o sistema exibe as informações como output com a seguinte mensagem:
