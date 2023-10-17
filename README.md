@@ -31,7 +31,8 @@ Nesse projeto exercitei o conteúdo apresentado no módulo de Sintaxe, codifican
 Olá "Nome e Sobrenome", 
     Obrigado por criar uma conta em nosso banco! 
 
-"Sua agência é:"xxx-x", Conta:"xxxx" , Seu saldo de:R$"xxx.xx" Já está disponível para saque."              "Até logo Volte Sempre!!!"
+"Sua agência é:"xxx-x", Conta:"xxxx", Seu saldo de:R$"xxx.xx", Já está disponível para saque."              
+    "Até logo Volte Sempre!!!"
 
 &ensp;
 &ensp;
