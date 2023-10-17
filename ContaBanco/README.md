@@ -1,18 +1,51 @@
-## Getting Started
+## Projeto DIO - Trilha Java Básico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+www.dio.me &ensp; | &ensp; Autor - [Gleyson Sampaio](https://github.com/glysns)
+&ensp;
 
-## Folder Structure
+&ensp;
+## Sintaxe Desafio
 
-The workspace contains two folders by default, where:
+Nesse projeto vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe, com a proposta de codificar o seguinte cenário:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. Crie um projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar todas as codificações do nosso programa.
+&ensp;
+  
+&ensp;
+### Revise sobre regras de declaração de variáveis
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Atributo  | Tipo     | Exemplo   
+| --------- | ---------| ------- 
+| Numero    | Inteiro  | 1021 
+| Agencia   | Texto    | 067-8
+| Nome Cliente | Texto    | MARIO ANDRADE
+| Saldo | Decimal |237.48
+&ensp;
+  
+&ensp;
+###### Revise sobre terminal, main args e a classe Scanner
+2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* Programa: "Por favor, digite o número da Agência !"
+* Usuário: 1021 *(depois ENTER para o próximo campo)* 
+&ensp;
+  
+&ensp;
+###### Revise sobre concatenação e classe String com método concat
 
-## Dependency Management
+3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
+
+Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+&ensp;
+  
+&ensp;
+## Objetivoo do curso
+Apresentar os conceitos e explorar os tipos de fluxos condicionais, excepcional e de repetição em uma aplicação Java.
+
+## Assuntos
+    - Estruturas condicionais: if-else, switch-case
+    - Estruturas de repetição: for, while, do-while
+    - Estruturas de exceções: try-catch-finally, throw
